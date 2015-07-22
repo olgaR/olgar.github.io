@@ -7,15 +7,25 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script type="text/javascript>" src="http://www.olgar.github.io/tree/master/assets/js/mbox.js"></script>
+
 	</head>
 	<body id="top">
 
 		<!-- Header -->
 			<header id="header">
 				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-				<h1><strong>I am Strata</strong>, a super simple<br />
-				responsive site template freebie<br />
-				crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+
+				<!-- mbox: Change headline for iOS -->
+				<div class="mboxDefault">
+
+					<h1><strong>I am Strata</strong>, a super simple<br />
+					responsive site template freebie<br />
+					crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+				
+				</div>
+				<script type="text/javascript"> mboxCreate('iOS_mbox');</script>
+				<!-- end mbox -->
 			</header>
 
 		<!-- Main -->
